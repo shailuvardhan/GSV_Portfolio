@@ -1,0 +1,45 @@
+.nav-header {
+  height: 10vh;
+  background-color: #e0dfe6;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo-container {
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-name {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  margin-left: -40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 10px;
+  font-family: "Roboto";
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+  font-family: "Roboto";
+  cursor: pointer;
+}
