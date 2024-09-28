@@ -3,26 +3,9 @@ import "./index.css";
 const Resume = () => {
   const url = "http://localhost:3000/Shailu_vardhan_resume.pdf";
 
-  // const onClickButton = (url) => {
-  //   const filename = url.split("/").pop();
-  //   const aTag = document.createElement("a");
-  //   aTag.href = url;
-  //   aTag.setAttribute("download", filename);
-  //   document.body.appendChild(aTag);
-  //   aTag.click();
-  //   aTag.remove();
-  // };
-
   return (
     <div className="pdf-container">
       <div className="download-button-container">
-        {/* <button
-          onClick={() => {
-            onClickButton(url);
-          }}
-        >
-          Download Resume
-        </button> */}
         <button className="download-btn">
           <a href={url} download="GSV_Resume.pdf" className="btn">
             Download Resume

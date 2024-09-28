@@ -1,0 +1,19 @@
+.footer-container {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: auto;
+  align-self: last baseline;
+}
+.social-media-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.social-icons {
+  margin-right: 10px;
+  font-size: 14px;
+}

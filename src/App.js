@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import About from "./components/About";
 import Project from "./components/Project";
@@ -19,6 +20,7 @@ const App = () => (
       <Route exact path="/project" component={Project} />
       <Route path="/not-found" component={NotFound} />
     </Switch>
+    <Footer />
   </BrowserRouter>
 );
 
