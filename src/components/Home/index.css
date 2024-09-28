@@ -1,0 +1,14 @@
+.contact-me-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-social-icons {
+  font-size: 100px;
+  background-color: #ffffff;
+}
+.home-social-media-icons {
+  display: flex;
+  justify-content: center;
+}
