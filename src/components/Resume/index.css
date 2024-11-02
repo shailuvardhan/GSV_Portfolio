@@ -4,7 +4,10 @@
   justify-content: center;
   align-items: center;
   background-color: #9fcfd1;
+  background-size: cover;
+  height: 100%;
   padding: 20px;
+  padding-top: 80px;
 }
 .download-button-container {
   margin-top: 10px;

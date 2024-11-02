@@ -1,3 +1,10 @@
+.about-container {
+  background-size: cover;
+  height: 100%;
+  padding: 20px;
+  padding-top: 80px;
+}
+
 .sign-footer:before {
   content: "- ";
 }
