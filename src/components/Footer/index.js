@@ -18,7 +18,7 @@ const Footer = () => {
         <h3>
           Copyright{" "}
           <span className="copyright-symbol">
-            <FaRegCopyright />
+            <FaRegCopyright className="footer-social-icons" />
           </span>
           {year} SB
         </h3>
@@ -30,7 +30,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithubSquare />
+            <FaGithubSquare className="footer-social-icons" />
           </a>
         </li>
         <li className="social-icons">
@@ -39,7 +39,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaTwitterSquare />
+            <FaTwitterSquare className="footer-social-icons" />
           </a>
         </li>
         <li className="social-icons">
@@ -48,7 +48,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin />
+            <FaLinkedin className="footer-social-icons" />
           </a>
         </li>
       </ul>

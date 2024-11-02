@@ -9,4 +9,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+}
+.app-container {
+  background-size: cover;
+  min-height: 100vh;
+  color: #ffffff;
+}
+.purple,
+strong {
+  color: #cd5ff8;
 }

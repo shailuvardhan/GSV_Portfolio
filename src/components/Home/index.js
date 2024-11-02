@@ -2,7 +2,7 @@ import { MdWavingHand } from "react-icons/md";
 import { FaTwitterSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import Type from "./Type";
 import drillDown from "../../Assets/drilldown.jpeg";
-import myImg from "../../Assets/personLogo.jpg";
+import myImg from "../../Assets/avatar (1).svg";
 
 import Header from "../Header";
 import Footer from "../Footer";
@@ -13,7 +13,7 @@ const Home = () => {
     <>
       <Header />
       <div className="home-container">
-        <div className="top-container">
+        <div className="home-top-container">
           <div className="text-container">
             <h1>
               Hi There!{" "}
@@ -35,7 +35,7 @@ const Home = () => {
             />
           </div>
         </div>
-        <div className="bottom-container">
+        <div className="home-bottom-container">
           <div className="left">
             <h1>
               LET ME <span className="purple">INTRODUCE</span> MYSELF
@@ -49,8 +49,8 @@ const Home = () => {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products</b>
-              </i>
+                <b className="purple">Web Technologies and Products.</b>
+              </i>{" "}
               Whenever possible, I also apply my passion for developing products
               with <b className="purple">Node.js</b> and
               <i>
@@ -61,7 +61,7 @@ const Home = () => {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js</b>
               </i>
             </p>
           </div>

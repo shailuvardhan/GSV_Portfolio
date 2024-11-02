@@ -1,6 +1,6 @@
 .nav-header {
   height: 10vh;
-  background-color: #e0dfe6;
+  background-color: #282c34;
   background-size: cover;
   display: flex;
   flex-direction: row;
@@ -9,19 +9,20 @@
   padding: 20px;
   position: fixed;
   width: 100%;
+  color: #ffffff;
 }
 
 .logo-container {
   background-color: black;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .logo-name {
-  color: #ffffff;
+  color: #cd5ff8;
   font-size: 16px;
   font-weight: bold;
 }
@@ -36,8 +37,12 @@
   text-decoration: none;
   margin: 10px;
   font-family: "Roboto";
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
 }
-.nav-menu .nav-link li::after {
+.nav-menu .nav-link li:hover {
   background: #c95bf5;
   border-radius: 16px;
   bottom: 1px;
@@ -57,4 +62,8 @@ li {
   margin: 10px;
   font-family: "Roboto";
   cursor: pointer;
+}
+.header-icons {
+  font-size: 20px;
+  margin-right: 3px;
 }

@@ -3,25 +3,30 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #9fcfd1;
   background-size: cover;
   height: 100%;
   padding: 20px;
   padding-top: 80px;
 }
 .download-button-container {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .download-btn {
   border-radius: 9px;
   outline: none;
   border: 0;
-  width: 250px;
-  padding: 10px;
+  width: fit-content;
+  padding: 15px;
+  background-color: transparent;
+  background-color: #623686;
 }
 .btn {
   font-size: 20px;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
 }
 .img-container {
   display: flex;

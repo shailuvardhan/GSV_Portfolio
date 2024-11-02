@@ -1,3 +1,5 @@
+import { AiOutlineDownload } from "react-icons/ai";
+
 import Header from "../Header";
 import Footer from "../Footer";
 import "./index.css";
@@ -12,7 +14,7 @@ const Resume = () => {
         <div className="download-button-container">
           <button className="download-btn">
             <a href={url} download="GSV_Resume.pdf" className="btn">
-              Download Resume
+              <AiOutlineDownload /> &nbsp;Download Resume
             </a>
           </button>
         </div>
@@ -26,7 +28,7 @@ const Resume = () => {
         <div className="download-button-container">
           <button className="download-btn">
             <a href={url} download="GSV_Resume.pdf" className="btn">
-              Download Resume
+              <AiOutlineDownload /> &nbsp;Download Resume
             </a>
           </button>
         </div>

@@ -1,8 +1,41 @@
 .home-container {
+  background-image: linear-gradient(
+      to bottom left,
+      hsla(0, 3%, 6%, 0.678),
+      rgba(12, 10, 22, 0.863)
+    ),
+    url("/src/Assets/home-bg.dc52d5d40a40b13154b0_nbtfo7.jpg");
+  background-image: var(--image-gradient),
+    url("/src/Assets/home-bg.dc52d5d40a40b13154b0_nbtfo7.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   padding: 20px;
   padding-top: 80px;
+}
+
+.home-top-container,
+.home-bottom-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* font-family: "Roboto"; */
+}
+.programmer-img-container,
+.person-logo-img {
+  max-width: 40%;
+}
+.programmer-img,
+.avatar-img {
+  max-height: 450px;
+}
+.left {
+  width: 50%;
+}
+.home-bottom-container {
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 .contact-me-container {
   display: flex;
@@ -11,10 +44,15 @@
   align-items: center;
 }
 .home-social-icons {
-  font-size: 100px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
   background-color: #ffffff;
+  padding: 10px;
+  border-radius: 100%;
 }
 .home-social-media-icons {
   display: flex;
   justify-content: center;
+  align-items: center;
 }

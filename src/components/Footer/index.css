@@ -1,4 +1,5 @@
 .footer-container {
+  background-color: #0a0416;
   height: 10vh;
   display: flex;
   flex-direction: row;
@@ -15,6 +16,9 @@
   justify-content: space-between;
 }
 .social-icons {
-  margin-right: 10px;
-  font-size: 14px;
+  margin-right: 15px;
+  font-size: 20px;
+}
+.footer-social-icons {
+  color: #ffffff;
 }
