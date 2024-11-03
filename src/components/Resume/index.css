@@ -19,6 +19,7 @@
   padding: 15px;
   background-color: transparent;
   background-color: #623686;
+  cursor: pointer;
 }
 .btn {
   font-size: 20px;

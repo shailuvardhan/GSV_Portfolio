@@ -18,7 +18,8 @@ const ProjectList = [
     id: uuidv4(),
     projectImg: Cryptocurrency,
     name: "Crypto Currency App",
-    description: "Crypto Currency App",
+    description:
+      "Developed a comprehensive CryptoCurrency App that enables users to track and manage their cryptocurrency investments effectively. The application features real-time price tracking, portfolio management, and market analysis tools, providing users with a seamless experience in navigating the cryptocurrency landscape.Leveraged modern web technologies including React for the frontend,ensuring a responsive and efficient application.",
     gitHubLink: "https://github.com/shailuvardhan/CryptoCurrencyApp",
     projectDemoLink: "https://gsvcryptotrker.ccbp.tech/",
   },
@@ -35,7 +36,8 @@ const ProjectList = [
     id: uuidv4(),
     projectImg: JobSearchApp,
     name: "Jobby App",
-    description: "JobbyApp",
+    description:
+      "Brought to life an all-encompassing job search platform, Jobby App.Created pages for Login, Home, Jobs, and Job item details with React components, form inputs, andevent handlers.Secured user information with JWT tokens, REST API calls, and local storage.Utilized React Router for protected routes and persisted login state.",
     gitHubLink: "https://github.com/shailuvardhan/JobbyApp",
     projectDemoLink: "https://gsvjobbyapp.ccbp.tech/",
   },
