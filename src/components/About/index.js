@@ -76,10 +76,9 @@ const About = () => {
               Aspiring MERN Stack Developer | CCBPian at NxtWave Python
               ,SQL,ReactJS.
               <br />
-              B.Tech (Bachelor of Technology) in Electrical & Electronics
-              Engineering(EEE) I have completed B.Tech (Bachelor of Technology)
-              in Electrical & Electronics Engineering(EEE) at Mahatma Gandhi
-              Institute of Technology(MGIT.
+              I have completed B.Tech (Bachelor of Technology) in Electrical &
+              Electronics Engineering(EEE) at Mahatma Gandhi Institute of
+              Technology(MGIT).
               <br />
               <br />
               Apart from coding, some other activities that I love to do!
@@ -89,14 +88,11 @@ const About = () => {
                 <ImPointRight /> Reading books
               </li>
               <li className="about-activity">
-                <ImPointRight /> Writing Tech Blogs
-              </li>
-              <li className="about-activity">
                 <ImPointRight /> Travelling
               </li>
             </ul>
 
-            <p style={{ color: "rgb(155 126 172)" }}>
+            <p className="Quote">
               "Strive to build things that make a difference!"{" "}
             </p>
             <footer className="sign-footer">Shailuvardhan</footer>
@@ -124,7 +120,6 @@ const About = () => {
           </ul>
         </div>
       </div>
-      \
       <Footer />
     </>
   );

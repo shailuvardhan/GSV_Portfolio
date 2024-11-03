@@ -1,5 +1,8 @@
 import { v4 as uuidv4 } from "uuid";
 
+import { CgWebsite } from "react-icons/cg";
+import { BsGithub } from "react-icons/bs";
+
 import Header from "../Header";
 import Footer from "../Footer";
 import "./index.css";
@@ -90,6 +93,8 @@ const Projects = () => {
                     className="a-link"
                     target="_blank"
                   >
+                    {" "}
+                    <BsGithub />
                     GitHub
                   </a>
                 </button>
@@ -100,6 +105,7 @@ const Projects = () => {
                     className="a-link"
                     target="_blank"
                   >
+                    <CgWebsite />
                     Live Demo
                   </a>
                 </button>

@@ -22,19 +22,26 @@
 .project-item {
   width: 350px;
   padding: 10px;
-  border: 1.5px solid red;
+  margin: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
 }
 
-/* @media screen and (min-width: 788px) {
-  .project-item {
-    width: 350px;
-    margin-right: 20px;
-    width: 100%;
-  }
-} */
+.project-item:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+}
 
 .project-card-img {
   width: 100%;
@@ -51,7 +58,21 @@
 }
 .btn-link {
   margin-right: 20px;
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #623686 !important;
+  border-color: #623686 !important;
+}
+.btn-link:hover {
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
 }
 .a-link {
   text-decoration: none;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #fff;
 }

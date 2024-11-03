@@ -11,6 +11,24 @@
   align-self: last baseline;
   bottom: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+  }
+  .h3 {
+    margin: 0;
+  }
+  .social-media-icons {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}
+
 .social-media-icons {
   display: flex;
   justify-content: space-between;

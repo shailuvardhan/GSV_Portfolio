@@ -12,10 +12,10 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <div className="designed-by-container">
-        <h3>Designed and Developed by G Shailu vardhan</h3>
+        <h3 className="h3">Designed and Developed by G Shailu vardhan</h3>
       </div>
       <div className="copyright-container">
-        <h3>
+        <h3 className="h3">
           Copyright{" "}
           <span className="copyright-symbol">
             <FaRegCopyright className="footer-social-icons" />
